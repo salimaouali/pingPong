@@ -25,7 +25,7 @@ var game = {
     lost : false,
     directionX : 1,
     directionY : 1,
-    speed :9,
+    speed :5,
 
     move : function() {
       this.posX += this.directionX * this.speed;
